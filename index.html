@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonrisa Vital — Clínica Médica Integral</title>
+  <meta name="description" content="Clínica Médica Integral Sonrisa Vital. Odontología, Medicina General y Dermatología. Atendemos seguros médicos y particulares." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="16" fill="#1B6CA8"/>
+            <path d="M16 6v20M6 16h20" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="5" fill="#2EC4B6"/>
+          </svg>
+        </span>
+        <span class="logo-text">Sonrisa<strong>Vital</strong></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#doctores">Doctores</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a href="#agendar" class="btn btn-primary nav-cta">Agendar Cita</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text fade-in">
+        <span class="hero-badge">✦ Clínica Médica Integral</span>
+        <h1>Tu salud es nuestra<br /><span class="highlight">prioridad</span></h1>
+        <p class="hero-sub">
+          Odontología, Medicina General y Dermatología en un solo lugar.<br />
+          Atendemos seguros médicos y pacientes particulares en un ambiente moderno y sin estrés.
+        </p>
+        <div class="hero-actions">
+          <a href="#agendar" class="btn btn-primary btn-lg">Agendar Cita</a>
+          <a href="#servicios" class="btn btn-outline btn-lg">Ver Servicios</a>
+        </div>
+        <div class="trust-badges">
+          <span>✓ +5,000 pacientes</span>
+          <span>✓ Tecnología moderna</span>
+          <span>✓ Atención sin dolor</span>
+          <span>✓ Seguros médicos</span>
+        </div>
+      </div>
+      <div class="hero-visual fade-in delay-200">
+        <div class="hero-card-main">
+          <div class="pulse-ring"></div>
+          <svg class="hero-icon" viewBox="0 0 120 120" fill="none">
+            <circle cx="60" cy="60" r="58" fill="#EBF4FF" stroke="#1B6CA8" stroke-width="2"/>
+            <path d="M38 55c0-12 8-22 22-22s22 10 22 22c0 8-4 18-10 26-3 4-6 8-12 10-6-2-9-6-12-10C44 73 38 63 38 55z" fill="#2EC4B6" opacity=".2"/>
+            <path d="M38 55c0-12 8-22 22-22s22 10 22 22c0 8-4 18-10 26-3 4-6 8-12 10-6-2-9-6-12-10C44 73 38 63 38 55z" stroke="#1B6CA8" stroke-width="2.5" fill="none"/>
+            <path d="M52 52h16M60 44v16" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="hero-stat-card card-1">
+          <span class="stat-num">15+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="hero-stat-card card-2">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Especialidades</span>
+        </div>
+        <div class="hero-stat-card card-3">
+          <span class="stat-num">24/7</span>
+          <span class="stat-label">Urgencias</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#F4F7FA"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== SERVICIOS ===== -->
+  <section class="section services-section" id="servicios">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Lo que ofrecemos</span>
+        <h2>Nuestros Servicios</h2>
+        <p>Atención integral en tres especialidades médicas con la más alta tecnología y profesionalismo.</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tabs fade-in">
+        <button class="tab-btn active" data-tab="dental">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8 2 5 5 5 9c0 3.5 2 8 7 13 5-5 7-9.5 7-13 0-4-3-7-7-7z"/></svg>
+          Odontología
+        </button>
+        <button class="tab-btn" data-tab="medicina">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2h-4M9 3a2 2 0 002 2h2a2 2 0 002-2M9 3a2 2 0 012-2h2a2 2 0 012 2"/><path d="M12 8v8M8 12h8"/></svg>
+          Medicina General
+        </button>
+        <button class="tab-btn" data-tab="derma">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg>
+          Dermatología
+        </button>
+      </div>
+
+      <!-- Tab Panels -->
+      <div class="tab-panel active" id="tab-dental">
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8 2 5 5 5 9c0 3.5 2 8 7 13 5-5 7-9.5 7-13 0-4-3-7-7-7z"/><path d="M9 9l2 2 4-4"/></svg>
+            </div>
+            <h3>Limpieza Dental Profesional</h3>
+            <p>Eliminación de sarro, placa bacteriana y manchas con ultrasonido. Incluye pulido y fluorización.</p>
+          </div>
+          <div class="service-card fade-in delay-100">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8M12 8l4 4-4 4"/></svg>
+            </div>
+            <h3>Blanqueamiento Dental</h3>
+            <p>Tratamiento profesional en consultorio con luz LED. Resultados visibles desde la primera sesión.</p>
+          </div>
+          <div class="service-card fade-in delay-200">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3>Ortodoncia</h3>
+            <p>Brackets metálicos, estéticos e Invisalign. Corrección de mordida y alineación personalizada.</p>
+          </div>
+          <div class="service-card fade-in delay-300">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <h3>Implantes Dentales</h3>
+            <p>Implantes de titanio de alta calidad con corona definitiva. La solución más duradera para dientes perdidos.</p>
+          </div>
+          <div class="service-card fade-in delay-100">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Odontología Estética</h3>
+            <p>Carillas, resinas estéticas y diseño de sonrisa. Transforma tu sonrisa con precisión artística.</p>
+          </div>
+          <div class="service-card fade-in delay-200">
+            <div class="service-icon" style="--c:#e74c3c">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Urgencias 24/7</h3>
+            <p>Atención de emergencias dentales las 24 horas. Dolor de muela, fracturas, abscesos y más.</p>
+            <span class="badge-urgent">Urgente</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-medicina">
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2h-4"/><path d="M12 8v8M8 12h8"/></svg>
+            </div>
+            <h3>Consulta General</h3>
+            <p>Diagnóstico integral, prescripción y seguimiento de tu salud. Atención para todas las edades.</p>
+          </div>
+          <div class="service-card fade-in delay-100">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <h3>Medicina Preventiva</h3>
+            <p>Chequeos periódicos, vacunación adultos, exámenes de laboratorio y control de salud integral.</p>
+          </div>
+          <div class="service-card fade-in delay-200">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+            </div>
+            <h3>Enfermedades Crónicas</h3>
+            <p>Manejo y control de diabetes, hipertensión, tiroides, colesterol y otras condiciones a largo plazo.</p>
+          </div>
+          <div class="service-card fade-in delay-300">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <h3>Pediatría</h3>
+            <p>Atención especializada para niños y adolescentes. Control de crecimiento, vacunas y desarrollo.</p>
+          </div>
+          <div class="service-card fade-in delay-100">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 6-6"/></svg>
+            </div>
+            <h3>Certificados Médicos</h3>
+            <p>Emisión de certificados de salud, aptitud laboral, deportivos y para trámites institucionales.</p>
+          </div>
+          <div class="service-card fade-in delay-200">
+            <div class="service-icon" style="--c:#e74c3c">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <h3>Urgencias Médicas</h3>
+            <p>Atención rápida para fiebre, infecciones, alergias, traumatismos menores y más. Sin cita previa.</p>
+            <span class="badge-urgent">Urgente</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-derma">
+        <div class="services-grid">
+          <div class="service-card fade-in">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg>
+            </div>
+            <h3>Tratamiento del Acné</h3>
+            <p>Diagnóstico y tratamiento personalizado del acné leve, moderado y severo. Limpieza facial médica.</p>
+          </div>
+          <div class="service-card fade-in delay-100">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            </div>
+            <h3>Rejuvenecimiento Facial</h3>
+            <p>Bótox, ácido hialurónico, peelings químicos y radiofrecuencia para una piel más joven y luminosa.</p>
+          </div>
+          <div class="service-card fade-in delay-200">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <h3>Manchas y Melasma</h3>
+            <p>Tratamiento de manchas, hiperpigmentación y melasma con láser, peelings y despigmentantes.</p>
+          </div>
+          <div class="service-card fade-in delay-300">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3>Dermatitis y Eczema</h3>
+            <p>Control de dermatitis atópica, seborreica, psoriasis y otras condiciones crónicas de la piel.</p>
+          </div>
+          <div class="service-card fade-in delay-100">
+            <div class="service-icon" style="--c:#2EC4B6">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+            </div>
+            <h3>Lunares y Lesiones</h3>
+            <p>Evaluación dermatoscópica de lunares y lesiones pigmentadas. Detección temprana de melanoma.</p>
+          </div>
+          <div class="service-card fade-in delay-200">
+            <div class="service-icon" style="--c:#1B6CA8">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22v-8h6v8"/></svg>
+            </div>
+            <h3>Caída del Cabello</h3>
+            <p>Diagnóstico y tratamiento de alopecia androgénica y otras formas de pérdida capilar. PRP capilar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== POR QUÉ ELEGIRNOS ===== -->
+  <section class="section why-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Nuestra diferencia</span>
+        <h2>¿Por qué elegirnos?</h2>
+        <p>Cada detalle está pensado para darte la mejor experiencia médica.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card fade-in">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Tecnología de Punta</h3>
+          <p>Equipos de última generación para diagnósticos más precisos y tratamientos menos invasivos.</p>
+        </div>
+        <div class="why-card fade-in delay-100">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Doctores Certificados</h3>
+          <p>Todo nuestro equipo cuenta con certificaciones nacionales e internacionales y formación continua.</p>
+        </div>
+        <div class="why-card fade-in delay-200">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <h3>Ambiente sin Estrés</h3>
+          <p>Instalaciones diseñadas para tu comodidad. Atención cálida, sin largas esperas ni aglomeraciones.</p>
+        </div>
+        <div class="why-card fade-in delay-300">
+          <div class="why-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          </div>
+          <h3>Precios Accesibles</h3>
+          <p>Planes de pago flexibles. Aceptamos los principales seguros médicos y tarjetas de crédito.</p>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-bar fade-in">
+        <div class="stat-item">
+          <span class="counter" data-target="5000">0</span><span class="stat-plus">+</span>
+          <span>Pacientes atendidos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="counter" data-target="15">0</span><span class="stat-plus">+</span>
+          <span>Años de experiencia</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="counter" data-target="12000">0</span><span class="stat-plus">+</span>
+          <span>Procedimientos realizados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="counter" data-target="98">0</span><span class="stat-plus">%</span>
+          <span>Satisfacción del paciente</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOCTORES ===== -->
+  <section class="section doctors-section" id="doctores">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Nuestro equipo</span>
+        <h2>Conoce a los Especialistas</h2>
+        <p>Profesionales comprometidos con tu bienestar y tu salud.</p>
+      </div>
+
+      <div class="doctors-grid">
+        <!-- Odontología -->
+        <div class="doctor-card fade-in">
+          <div class="doctor-photo doctor-photo-1">
+            <div class="doctor-avatar" style="--bg:#EBF4FF">
+              <img src="assets/Dr. Alejandro Méndez.png" alt="Dr. Alejandro Méndez" />
+            </div>
+            <div class="doctor-specialty-badge" style="--bc:#2EC4B6">Odontología</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Alejandro Méndez</h3>
+            <p class="doctor-title">Odontólogo General & Estético</p>
+            <p>Especialista en diseño de sonrisa y rehabilitación oral. Más de 10 años transformando sonrisas con técnicas mínimamente invasivas.</p>
+            <div class="doctor-tags">
+              <span>Blanqueamiento</span>
+              <span>Implantes</span>
+              <span>Estética</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in delay-100">
+          <div class="doctor-photo">
+            <div class="doctor-avatar" style="--bg:#F0FBF9">
+              <img src="assets/Dra. Valentina Cruz.png" alt="Dra. Valentina Cruz" />
+            </div>
+            <div class="doctor-specialty-badge" style="--bc:#1B6CA8">Ortodoncia</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dra. Valentina Cruz</h3>
+            <p class="doctor-title">Ortodoncista Certificada</p>
+            <p>Experta en ortodoncia invisible y brackets estéticos. Formación en Invisalign® con más de 500 casos tratados exitosamente.</p>
+            <div class="doctor-tags">
+              <span>Invisalign</span>
+              <span>Brackets</span>
+              <span>Mordida</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Medicina General -->
+        <div class="doctor-card fade-in delay-200">
+          <div class="doctor-photo">
+            <div class="doctor-avatar" style="--bg:#EBF4FF">
+              <img src="assets/Dr. Carlos Herrera.png" alt="Dr. Carlos Herrera" />
+            </div>
+            <div class="doctor-specialty-badge" style="--bc:#134E7E">Medicina General</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Carlos Herrera</h3>
+            <p class="doctor-title">Médico General & Familiar</p>
+            <p>Especialista en medicina familiar y preventiva. Atención integral de adultos y niños con enfoque en diagnóstico temprano.</p>
+            <div class="doctor-tags">
+              <span>Diabetes</span>
+              <span>Pediatría</span>
+              <span>Preventiva</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in delay-300">
+          <div class="doctor-photo">
+            <div class="doctor-avatar" style="--bg:#F0FBF9">
+              <img src="assets/Dra. Mónica Salazar.png" alt="Dra. Mónica Salazar" />
+            </div>
+            <div class="doctor-specialty-badge" style="--bc:#134E7E">Medicina Interna</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dra. Mónica Salazar</h3>
+            <p class="doctor-title">Internista & Endocrinóloga</p>
+            <p>Subespecialista en endocrinología y metabolismo. Tratamiento de tiroides, diabetes y síndrome metabólico.</p>
+            <div class="doctor-tags">
+              <span>Tiroides</span>
+              <span>Metabolismo</span>
+              <span>Hormonal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dermatología -->
+        <div class="doctor-card fade-in delay-100">
+          <div class="doctor-photo">
+            <div class="doctor-avatar" style="--bg:#EBF4FF">
+              <img src="assets/Dra. Isabella Romero.png" alt="Dra. Isabella Romero" />
+            </div>
+            <div class="doctor-specialty-badge" style="--bc:#2EC4B6">Dermatología</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dra. Isabella Romero</h3>
+            <p class="doctor-title">Dermatóloga Clínica & Estética</p>
+            <p>Especialista en dermatología médico-estética. Experta en tratamientos láser, medicina anti-aging y dermatoscopia digital.</p>
+            <div class="doctor-tags">
+              <span>Láser</span>
+              <span>Anti-aging</span>
+              <span>Acné</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctor-card fade-in delay-200">
+          <div class="doctor-photo">
+            <div class="doctor-avatar" style="--bg:#F0FBF9">
+              <img src="assets/Dr. Sebastián Vargas.png" alt="Dr. Sebastián Vargas" />
+            </div>
+            <div class="doctor-specialty-badge" style="--bc:#2EC4B6">Tricología</div>
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Sebastián Vargas</h3>
+            <p class="doctor-title">Dermatólogo & Tricólogo</p>
+            <p>Especialista en enfermedades de la piel y cuero cabelludo. Tratamiento de alopecia y afecciones capilares con PRP.</p>
+            <div class="doctor-tags">
+              <span>Alopecia</span>
+              <span>PRP</span>
+              <span>Cabello</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA DE PACIENTES ===== -->
+  <section class="section patients-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Resultados reales</span>
+        <h2>Nuestros Pacientes</h2>
+        <p>Historias de bienestar y transformación de quienes confían en Sonrisa Vital.</p>
+      </div>
+
+      <div class="patients-grid">
+
+        <!-- Paciente 1 -->
+        <div class="patient-card fade-in">
+          <div class="patient-photo-wrap">
+            <div class="patient-avatar">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50" fill="#EBF9F7"/>
+                <ellipse cx="50" cy="53" rx="21" ry="36" fill="#1A0800"/>
+                <ellipse cx="50" cy="44" rx="17" ry="18" fill="#C68642"/>
+                <ellipse cx="33" cy="44" rx="3" ry="3.5" fill="#B07432"/>
+                <ellipse cx="67" cy="44" rx="3" ry="3.5" fill="#B07432"/>
+                <rect x="44" y="61" width="12" height="10" rx="4" fill="#C68642"/>
+                <path d="M30 78 L42 68 L50 76 L58 68 L70 78 L70 100 L30 100 Z" fill="#2EC4B6"/>
+                <path d="M41 35 Q44 33 46 35" stroke="#1A0800" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+                <path d="M54 35 Q57 33 59 35" stroke="#1A0800" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+                <ellipse cx="44" cy="40" rx="2.8" ry="2.3" fill="#1A0800"/>
+                <ellipse cx="56" cy="40" rx="2.8" ry="2.3" fill="#1A0800"/>
+                <circle cx="45" cy="39.2" r="0.9" fill="white"/>
+                <circle cx="57" cy="39.2" r="0.9" fill="white"/>
+                <ellipse cx="50" cy="47" rx="1.8" ry="1.2" fill="#9E6428" opacity=".5"/>
+                <path d="M42 52 Q50 61 58 52" fill="#FF9999"/>
+                <path d="M44 53 Q50 59 56 53" fill="white"/>
+                <path d="M42 52 Q50 61 58 52" stroke="#1A0800" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+                <ellipse cx="38" cy="48" rx="4" ry="2.5" fill="#E8967A" opacity=".3"/>
+                <ellipse cx="62" cy="48" rx="4" ry="2.5" fill="#E8967A" opacity=".3"/>
+              </svg>
+            </div>
+            <span class="patient-badge badge-teal">Diseño de Sonrisa</span>
+          </div>
+          <div class="patient-info">
+            <div class="patient-stars">★★★★★</div>
+            <h4>María González</h4>
+            <p>"Mi sonrisa cambió por completo. Me siento mucho más segura y feliz."</p>
+            <span class="patient-tag">Odontología Estética</span>
+          </div>
+        </div>
+
+        <!-- Paciente 2 -->
+        <div class="patient-card fade-in delay-100">
+          <div class="patient-photo-wrap">
+            <div class="patient-avatar">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50" fill="#EBF4FF"/>
+                <ellipse cx="50" cy="44" rx="17" ry="18" fill="#D4A76A"/>
+                <ellipse cx="50" cy="31" rx="17" ry="9" fill="#2C1810"/>
+                <path d="M33 40 Q35 27 50 26 Q65 27 67 40" fill="#2C1810"/>
+                <ellipse cx="33" cy="44" rx="3" ry="3.5" fill="#BF9055"/>
+                <ellipse cx="67" cy="44" rx="3" ry="3.5" fill="#BF9055"/>
+                <rect x="44" y="61" width="12" height="10" rx="4" fill="#D4A76A"/>
+                <path d="M30 78 L42 68 L50 76 L58 68 L70 78 L70 100 L30 100 Z" fill="#1B6CA8"/>
+                <path d="M42 68 L50 76 L58 68" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M40 35 Q44 33 47 35" stroke="#2C1810" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <path d="M53 35 Q57 33 60 35" stroke="#2C1810" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <ellipse cx="44" cy="40" rx="2.8" ry="2.3" fill="#2C1810"/>
+                <ellipse cx="56" cy="40" rx="2.8" ry="2.3" fill="#2C1810"/>
+                <circle cx="45" cy="39.2" r="0.8" fill="white"/>
+                <circle cx="57" cy="39.2" r="0.8" fill="white"/>
+                <path d="M47 46 Q50 50 53 46" stroke="#BF9055" stroke-width="1" fill="none" stroke-linecap="round"/>
+                <path d="M42 52 Q50 61 58 52" fill="#FF9999"/>
+                <path d="M44 53 Q50 59 56 53" fill="white"/>
+                <path d="M42 52 Q50 61 58 52" stroke="#2C1810" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="patient-badge">Blanqueamiento</span>
+          </div>
+          <div class="patient-info">
+            <div class="patient-stars">★★★★★</div>
+            <h4>Carlos Méndez</h4>
+            <p>"En una sola sesión vi resultados increíbles. Sonrío con mucha más confianza."</p>
+            <span class="patient-tag">Odontología</span>
+          </div>
+        </div>
+
+        <!-- Paciente 3 -->
+        <div class="patient-card fade-in delay-200">
+          <div class="patient-photo-wrap">
+            <div class="patient-avatar">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50" fill="#F9F0FF"/>
+                <ellipse cx="50" cy="49" rx="20" ry="31" fill="#4A1A00"/>
+                <ellipse cx="50" cy="44" rx="16" ry="17" fill="#C9956C"/>
+                <ellipse cx="34" cy="44" rx="3" ry="3.5" fill="#BA8460"/>
+                <ellipse cx="66" cy="44" rx="3" ry="3.5" fill="#BA8460"/>
+                <rect x="44" y="60" width="12" height="10" rx="4" fill="#C9956C"/>
+                <path d="M30 78 L42 68 L50 76 L58 68 L70 78 L70 100 L30 100 Z" fill="#8E44AD"/>
+                <path d="M41 35 Q44 33 47 35" stroke="#4A1A00" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <path d="M53 35 Q57 33 59 35" stroke="#4A1A00" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <ellipse cx="44" cy="40" rx="3" ry="2.5" fill="#2C1810"/>
+                <ellipse cx="56" cy="40" rx="3" ry="2.5" fill="#2C1810"/>
+                <circle cx="45" cy="39.2" r="0.9" fill="white"/>
+                <circle cx="57" cy="39.2" r="0.9" fill="white"/>
+                <path d="M41 37.8 Q44 36.5 47 37.8" stroke="#2C1810" stroke-width="0.8" fill="none"/>
+                <path d="M53 37.8 Q56 36.5 59 37.8" stroke="#2C1810" stroke-width="0.8" fill="none"/>
+                <ellipse cx="50" cy="47" rx="1.8" ry="1.2" fill="#A07850" opacity=".4"/>
+                <path d="M42 52 Q50 61 58 52" fill="#FF8C8C"/>
+                <path d="M44 53 Q50 59 56 53" fill="white"/>
+                <path d="M42 52 Q50 61 58 52" stroke="#2C1810" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <ellipse cx="38" cy="48" rx="4" ry="2.5" fill="#E87070" opacity=".25"/>
+                <ellipse cx="62" cy="48" rx="4" ry="2.5" fill="#E87070" opacity=".25"/>
+              </svg>
+            </div>
+            <span class="patient-badge badge-dark">Ortodoncia</span>
+          </div>
+          <div class="patient-info">
+            <div class="patient-stars">★★★★★</div>
+            <h4>Sofía Ramírez</h4>
+            <p>"El proceso de Invisalign fue más rápido de lo esperado. ¡Estoy feliz con el resultado!"</p>
+            <span class="patient-tag">Ortodoncia Invisible</span>
+          </div>
+        </div>
+
+        <!-- Paciente 4 -->
+        <div class="patient-card fade-in delay-100">
+          <div class="patient-photo-wrap">
+            <div class="patient-avatar">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50" fill="#EBF4FF"/>
+                <ellipse cx="50" cy="44" rx="17" ry="18" fill="#7D4E2D"/>
+                <ellipse cx="50" cy="30" rx="17" ry="8" fill="#120800"/>
+                <path d="M33 40 Q35 27 50 26 Q65 27 67 40" fill="#120800"/>
+                <ellipse cx="33" cy="44" rx="3" ry="3.5" fill="#6B3D20"/>
+                <ellipse cx="67" cy="44" rx="3" ry="3.5" fill="#6B3D20"/>
+                <rect x="44" y="61" width="12" height="10" rx="4" fill="#7D4E2D"/>
+                <path d="M30 78 L42 68 L50 76 L58 68 L70 78 L70 100 L30 100 Z" fill="#2C3E50"/>
+                <path d="M42 68 L50 76 L58 68" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M40 35 Q44 33 47 35" stroke="#120800" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <path d="M53 35 Q57 33 60 35" stroke="#120800" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <ellipse cx="44" cy="40" rx="2.8" ry="2.3" fill="#1A0800"/>
+                <ellipse cx="56" cy="40" rx="2.8" ry="2.3" fill="#1A0800"/>
+                <circle cx="45" cy="39.2" r="0.8" fill="white"/>
+                <circle cx="57" cy="39.2" r="0.8" fill="white"/>
+                <path d="M46 46 Q50 50 54 46" stroke="#5A3015" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <path d="M42 52 Q50 61 58 52" fill="#FF8080"/>
+                <path d="M44 53 Q50 59 56 53" fill="white"/>
+                <path d="M42 52 Q50 61 58 52" stroke="#1A0800" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="patient-badge badge-teal">Implantes</span>
+          </div>
+          <div class="patient-info">
+            <div class="patient-stars">★★★★★</div>
+            <h4>Luis Torres</h4>
+            <p>"Llevaba años sin poder morder bien. El implante cambió mi calidad de vida totalmente."</p>
+            <span class="patient-tag">Implantes Dentales</span>
+          </div>
+        </div>
+
+        <!-- Paciente 5 -->
+        <div class="patient-card fade-in delay-200">
+          <div class="patient-photo-wrap">
+            <div class="patient-avatar">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50" fill="#EBF9F0"/>
+                <ellipse cx="50" cy="53" rx="21" ry="36" fill="#8B3A0A"/>
+                <path d="M30 60 Q34 52 30 44 Q28 36 33 30" stroke="#A04510" stroke-width="3" fill="none" stroke-linecap="round"/>
+                <path d="M70 60 Q66 52 70 44 Q72 36 67 30" stroke="#A04510" stroke-width="3" fill="none" stroke-linecap="round"/>
+                <ellipse cx="50" cy="44" rx="16" ry="17" fill="#F5CBA7"/>
+                <ellipse cx="34" cy="44" rx="3" ry="3.5" fill="#E8B88A"/>
+                <ellipse cx="66" cy="44" rx="3" ry="3.5" fill="#E8B88A"/>
+                <rect x="44" y="60" width="12" height="10" rx="4" fill="#F5CBA7"/>
+                <path d="M30 78 L42 68 L50 76 L58 68 L70 78 L70 100 L30 100 Z" fill="#27AE60"/>
+                <path d="M41 35 Q44 33 47 35" stroke="#6B2800" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <path d="M53 35 Q57 33 59 35" stroke="#6B2800" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <ellipse cx="44" cy="40" rx="2.8" ry="2.3" fill="#2E7D32"/>
+                <ellipse cx="56" cy="40" rx="2.8" ry="2.3" fill="#2E7D32"/>
+                <circle cx="45" cy="39.2" r="0.9" fill="white"/>
+                <circle cx="57" cy="39.2" r="0.9" fill="white"/>
+                <circle cx="41" cy="46" r="0.8" fill="#D4856A" opacity=".5"/>
+                <circle cx="44" cy="47.5" r="0.6" fill="#D4856A" opacity=".5"/>
+                <circle cx="56" cy="46" r="0.8" fill="#D4856A" opacity=".5"/>
+                <circle cx="59" cy="47.5" r="0.6" fill="#D4856A" opacity=".5"/>
+                <ellipse cx="50" cy="47" rx="1.8" ry="1.2" fill="#D4A07A" opacity=".4"/>
+                <path d="M42 52 Q50 61 58 52" fill="#FF8C8C"/>
+                <path d="M44 53 Q50 59 56 53" fill="white"/>
+                <path d="M42 52 Q50 61 58 52" stroke="#3E1A00" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <ellipse cx="38" cy="48" rx="4.5" ry="2.5" fill="#FF9999" opacity=".2"/>
+                <ellipse cx="62" cy="48" rx="4.5" ry="2.5" fill="#FF9999" opacity=".2"/>
+              </svg>
+            </div>
+            <span class="patient-badge badge-teal">Dermatología</span>
+          </div>
+          <div class="patient-info">
+            <div class="patient-stars">★★★★★</div>
+            <h4>Ana Jiménez</h4>
+            <p>"La Dra. Romero transformó mi piel en 3 meses. Ya no me preocupo por el acné."</p>
+            <span class="patient-tag">Tratamiento de Acné</span>
+          </div>
+        </div>
+
+        <!-- Paciente 6 -->
+        <div class="patient-card fade-in delay-300">
+          <div class="patient-photo-wrap">
+            <div class="patient-avatar">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="50" cy="50" r="50" fill="#EBF4FF"/>
+                <ellipse cx="50" cy="44" rx="17" ry="18" fill="#B5803C"/>
+                <ellipse cx="50" cy="30" rx="17" ry="9" fill="#7A7A7A"/>
+                <path d="M33 40 Q35 27 50 26 Q65 27 67 40" fill="#7A7A7A"/>
+                <path d="M35 30 Q40 26 45 28" stroke="#CCCCCC" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M55 27 Q60 25 65 30" stroke="#CCCCCC" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <ellipse cx="33" cy="44" rx="3" ry="3.5" fill="#9E6E2C"/>
+                <ellipse cx="67" cy="44" rx="3" ry="3.5" fill="#9E6E2C"/>
+                <rect x="44" y="61" width="12" height="10" rx="4" fill="#B5803C"/>
+                <path d="M30 78 L42 68 L50 76 L58 68 L70 78 L70 100 L30 100 Z" fill="#1B6CA8"/>
+                <path d="M42 68 L50 76 L58 68" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M40 35 Q44 33 47 35" stroke="#555" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <path d="M53 35 Q57 33 60 35" stroke="#555" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                <ellipse cx="44" cy="40" rx="2.8" ry="2.3" fill="#3D2000"/>
+                <ellipse cx="56" cy="40" rx="2.8" ry="2.3" fill="#3D2000"/>
+                <circle cx="45" cy="39.2" r="0.8" fill="white"/>
+                <circle cx="57" cy="39.2" r="0.8" fill="white"/>
+                <path d="M36 48 Q34 52 36 56" stroke="#9E6E2C" stroke-width="0.7" fill="none" opacity=".4"/>
+                <path d="M64 48 Q66 52 64 56" stroke="#9E6E2C" stroke-width="0.7" fill="none" opacity=".4"/>
+                <path d="M47 46 Q50 50 53 46" stroke="#9E6E2C" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+                <path d="M42 52 Q50 61 58 52" fill="#FF8888"/>
+                <path d="M44 53 Q50 59 56 53" fill="white"/>
+                <path d="M42 52 Q50 61 58 52" stroke="#3D2000" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="patient-badge">Medicina General</span>
+          </div>
+          <div class="patient-info">
+            <div class="patient-stars">★★★★★</div>
+            <h4>Pedro Castillo</h4>
+            <p>"El Dr. Herrera me tiene controlada la presión arterial. Su seguimiento es ejemplar."</p>
+            <span class="patient-tag">Control Crónico</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIOS ===== -->
+  <section class="section testimonials-section" id="testimonios">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Lo que dicen</span>
+        <h2>Testimonios de Pacientes</h2>
+        <p>La confianza de nuestros pacientes es nuestra mayor recompensa.</p>
+      </div>
+
+      <div class="testimonials-wrapper fade-in">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Me hice el diseño de sonrisa con el Dr. Méndez y quedé absolutamente encantada. El proceso fue indoloro y los resultados superaron mis expectativas. ¡100% recomendado!"</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#EBF4FF;color:#1B6CA8">LM</div>
+              <div>
+                <strong>Laura Martínez</strong>
+                <span>Diseño de Sonrisa</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"La Dra. Romero es increíble. Llevaba años lidiando con el acné y en 3 meses de tratamiento mi piel cambió por completo. El consultorio es súper moderno y el trato es muy profesional."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#F0FBF9;color:#2EC4B6">KP</div>
+              <div>
+                <strong>Karen Pérez</strong>
+                <span>Tratamiento de Acné</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"El Dr. Herrera me lleva el control de mi diabetes hace 2 años. Gracias a su seguimiento y consejos he mejorado muchísimo. Siempre disponible y muy humano en el trato."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#EBF4FF;color:#134E7E">RG</div>
+              <div>
+                <strong>Roberto García</strong>
+                <span>Control Metabólico</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Traje a mi hijo por ortodoncia con la Dra. Cruz y ha sido la mejor decisión. Muy paciente con los niños y explica todo con claridad. El proceso de Invisalign fue menos tiempo del esperado."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#F0FBF9;color:#2EC4B6">AM</div>
+              <div>
+                <strong>Andrea Moreno</strong>
+                <span>Ortodoncia Invisible</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Vine por una urgencia dental un domingo a las 11pm y me atendieron de inmediato. Sin cita, sin espera larga y con un trato excelente. Sin duda esta es mi clínica ahora."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background:#EBF4FF;color:#1B6CA8">JV</div>
+              <div>
+                <strong>Jorge Vásquez</strong>
+                <span>Urgencia Dental</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-controls">
+          <button class="slider-btn" id="prevBtn" aria-label="Anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn" aria-label="Siguiente">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESO ===== -->
+  <section class="section process-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Fácil y rápido</span>
+        <h2>Cómo Funciona</h2>
+        <p>Desde que agendas hasta que sales con tu salud garantizada.</p>
+      </div>
+
+      <div class="process-timeline fade-in">
+        <div class="process-step">
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <div class="step-number">01</div>
+          <h3>Agenda tu Cita</h3>
+          <p>Elige tu especialidad, doctor y horario. Por WhatsApp o formulario en línea.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step">
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2h-4M9 3a2 2 0 002 2h2a2 2 0 002-2M9 3a2 2 0 012-2h2a2 2 0 012 2"/><path d="M12 8v8M8 12h8"/></svg>
+          </div>
+          <div class="step-number">02</div>
+          <h3>Evaluación Inicial</h3>
+          <p>Tu doctor te escucha, evalúa y realiza el diagnóstico completo en tu primera visita.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step">
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <div class="step-number">03</div>
+          <h3>Plan de Tratamiento</h3>
+          <p>Recibes un plan personalizado, claro y con opciones de pago acordes a tu presupuesto.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step">
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <div class="step-number">04</div>
+          <h3>Tratamiento</h3>
+          <p>Recibe tu tratamiento con tecnología de vanguardia y el máximo nivel de confort.</p>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step">
+          <div class="step-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <div class="step-number">05</div>
+          <h3>Seguimiento</h3>
+          <p>Te acompañamos en el post-tratamiento para garantizar resultados duraderos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEGUROS ===== -->
+  <section class="insurance-section">
+    <div class="container">
+      <div class="insurance-content fade-in">
+        <div class="insurance-text">
+          <h3>Aceptamos seguros médicos y planes particulares</h3>
+          <p>Trabajamos con los principales seguros para que no tengas que preocuparte por el costo. También ofrecemos precios competitivos para pacientes particulares con opciones de pago en cuotas.</p>
+        </div>
+        <div class="insurance-logos">
+          <div class="ins-badge">Seguros Atlas</div>
+          <div class="ins-badge">MapfreSalud</div>
+          <div class="ins-badge">ARS Humano</div>
+          <div class="ins-badge">Universal</div>
+          <div class="ins-badge">+ y más</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AGENDAR / CONTACTO ===== -->
+  <section class="section contact-section" id="agendar">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Estamos aquí</span>
+        <h2 id="contacto">Agendar Cita & Contacto</h2>
+        <p>Elige la forma que más te convenga. Respondemos en menos de 2 horas.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Formulario -->
+        <div class="contact-form-wrapper fade-in">
+          <h3>Formulario de Cita</h3>
+          <form class="contact-form" id="appointmentForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                <span class="field-error" id="nombreError"></span>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono *</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+1 809 000-0000" required />
+                <span class="field-error" id="telefonoError"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="especialidad">Especialidad *</label>
+                <select id="especialidad" name="especialidad" required>
+                  <option value="">Selecciona</option>
+                  <optgroup label="Odontología">
+                    <option>Limpieza dental</option>
+                    <option>Blanqueamiento</option>
+                    <option>Ortodoncia</option>
+                    <option>Implantes</option>
+                    <option>Odontología estética</option>
+                    <option>Urgencia dental</option>
+                  </optgroup>
+                  <optgroup label="Medicina General">
+                    <option>Consulta general</option>
+                    <option>Pediatría</option>
+                    <option>Enfermedades crónicas</option>
+                    <option>Medicina preventiva</option>
+                  </optgroup>
+                  <optgroup label="Dermatología">
+                    <option>Acné</option>
+                    <option>Rejuvenecimiento facial</option>
+                    <option>Manchas</option>
+                    <option>Caída del cabello</option>
+                    <option>Dermatitis</option>
+                  </optgroup>
+                </select>
+                <span class="field-error" id="especialidadError"></span>
+              </div>
+              <div class="form-group">
+                <label for="fecha">Fecha preferida</label>
+                <input type="date" id="fecha" name="fecha" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje o síntomas (opcional)</label>
+              <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos brevemente tu situación..."></textarea>
+            </div>
+            <div class="form-group">
+              <label for="seguro">¿Tienes seguro médico?</label>
+              <select id="seguro" name="seguro">
+                <option value="">Selecciona</option>
+                <option>Sí, tengo seguro</option>
+                <option>No, pago particular</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.72 13a19.79 19.79 0 01-3.07-8.67A2 2 0 013.62 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 9.91a16 16 0 006.29 6.29l1.27-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              Enviar Solicitud
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✓ ¡Tu cita fue solicitada! Te contactaremos pronto.
+            </div>
+          </form>
+        </div>
+
+        <!-- Info de contacto -->
+        <div class="contact-info fade-in delay-200">
+          <!-- WhatsApp -->
+          <a href="https://wa.me/18090000000?text=Hola%20Sonrisa%20Vital%2C%20quiero%20agendar%20una%20cita"
+             class="whatsapp-block" target="_blank" rel="noopener">
+            <div class="whatsapp-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+            </div>
+            <div class="whatsapp-text">
+              <strong>Agenda por WhatsApp</strong>
+              <span>Respuesta inmediata · 24 horas</span>
+            </div>
+            <svg class="whatsapp-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+
+          <!-- Horarios -->
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Horarios de Atención</h4>
+              <div class="schedule-list">
+                <div class="schedule-item">
+                  <span>Lun – Vie</span>
+                  <span>7:00am – 8:00pm</span>
+                </div>
+                <div class="schedule-item">
+                  <span>Sábado</span>
+                  <span>8:00am – 4:00pm</span>
+                </div>
+                <div class="schedule-item">
+                  <span>Domingo</span>
+                  <span>Urgencias 24/7</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ubicación -->
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Ubicación</h4>
+              <p>Av. Principal #123, Centro Médico Torre Salud, Piso 3 · Tu Ciudad</p>
+            </div>
+          </div>
+
+          <!-- Teléfonos -->
+          <div class="info-card">
+            <div class="info-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.72 13a19.79 19.79 0 01-3.07-8.67A2 2 0 013.62 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 9.91a16 16 0 006.29 6.29l1.27-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Teléfono & Email</h4>
+              <p><a href="tel:+18090000000">+1 (809) 000-0000</a></p>
+              <p><a href="mailto:citas@sonrisavital.com">citas@sonrisavital.com</a></p>
+            </div>
+          </div>
+
+          <!-- Mapa placeholder -->
+          <div class="map-placeholder">
+            <div class="map-inner">
+              <svg viewBox="0 0 24 24" fill="none" stroke="#1B6CA8" stroke-width="1.5" width="40" height="40"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Centro Médico Torre Salud</span>
+              <a href="https://maps.google.com" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Ver en Maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#inicio" class="logo logo-light">
+          <span class="logo-icon">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="16" fill="#2EC4B6"/>
+              <path d="M16 6v20M6 16h20" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+              <circle cx="16" cy="16" r="5" fill="#1B6CA8"/>
+            </svg>
+          </span>
+          <span>Sonrisa<strong>Vital</strong></span>
+        </a>
+        <p>Tu salud integral en un solo lugar. Odontología, Medicina y Dermatología con la calidad que mereces.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Instagram" class="social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" aria-label="WhatsApp" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+          </a>
+          <a href="#" aria-label="YouTube" class="social-link">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.57a2.78 2.78 0 001.95 1.97C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.97A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#1B6CA8"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Odontología</a></li>
+          <li><a href="#servicios">Medicina General</a></li>
+          <li><a href="#servicios">Dermatología</a></li>
+          <li><a href="#agendar">Urgencias 24/7</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Clínica</h4>
+        <ul>
+          <li><a href="#doctores">Nuestro equipo</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#agendar">Agendar cita</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="tel:+18090000000">+1 (809) 000-0000</a></li>
+          <li><a href="mailto:citas@sonrisavital.com">citas@sonrisavital.com</a></li>
+          <li><a href="https://wa.me/18090000000" target="_blank" rel="noopener">WhatsApp directo</a></li>
+          <li><span>Av. Principal #123, Piso 3</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2025 Sonrisa Vital · Todos los derechos reservados</p>
+        <div class="footer-bottom-links">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos de uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BOTÓN FLOTANTE WHATSAPP ===== -->
+  <a href="https://wa.me/18090000000?text=Hola%20Sonrisa%20Vital%2C%20quiero%20agendar%20una%20cita"
+     class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+    <span class="whatsapp-tooltip">¿Necesitas ayuda?</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
